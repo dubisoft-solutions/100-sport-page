@@ -1,0 +1,35 @@
+.card {
+    .card-body {
+        padding: 0 2.5rem;
+        .card-text {
+            font-size: 1.25rem;
+            @include media-breakpoint-down(md) {
+                font-size: .875rem;
+            }
+        }
+        @include media-breakpoint-down(md) {
+            padding: 2.5rem 1.563rem;
+        }
+    }
+}
+
+.card.contact {
+    .card-body {
+        padding: 1.125rem 1.563rem;
+        .card-form {
+            background-color: $white;
+            box-shadow: 0px 15.264px 22.896px rgba(102, 106, 245, 0.13);
+            border-radius: 10px;
+            padding: 1.125rem 1.563rem;
+            @include media-breakpoint-down(lg) {
+                padding: 1rem;
+                position: relative;
+                top: -50px;
+            }
+        }
+        @include media-breakpoint-down(lg) {
+            padding: 1rem;
+            width: 100%;
+        }
+    }
+}

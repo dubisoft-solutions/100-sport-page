@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="lv">
+//= html_partials/head.html
+
+<body class="index position-relative">
+    <main>
+        <!-- Header -->
+        //= html_partials/header.html
+        <!-- Main section -->
+        <section class="hero">
+            <div class="container-sm container-fluid px-0">
+                <img src="img/hero-img.png" alt="Do you wish to unsubscribe?" class="w-100">
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <h1 class="text-dark mb-lg-4 mb-3">Do you wish to unsubscribe?
+                        </h1>
+                    </div>
+                </div>
+                <div class="row mb-8">
+                    <div class="col-lg-7">
+                        <form class="needs-validation" novalidate>
+                            <div class="row mb-lg-4 mb-2">
+                                <div class="col-lg-5 col-7">
+                                    <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email" aria-describedby="basic-email">
+                                </div>
+                                <div class="col-lg-4 offset-lg-3 col-4 offset-0 text-end">
+                                    <div class="grecaptcha recaptcha-style"></div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3 col-3 pe-1">
+                                    <div class="rounded-1">
+                                        <select class="selectpicker form-control" title="Country Code" id="basic-country">
+                                            <option>SPAIN (+34)</option>
+                                            <option>SPAIN (+34)</option>
+                                            <option>SPAIN (+34)</option>
+                                            <option>SPAIN (+34)</option>
+                                            <option>SPAIN (+34)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-4 ps-1">
+                                    <div class="rounded-1 has-validation">
+                                        <input type="phone" class="form-control" placeholder="Enter your phone number" aria-label="Phone number" aria-describedby="basic-phone" required>
+                                        <div class="invalid-feedback">
+                                            Invalid number*
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-5 text-lg-start text-end">
+                                    <button type="submit" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#requestAcceptedModal">SEND</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1 col-8 text-lg-start text-center position-relative d-lg-block d-none">
+                        <div class="icon-style">
+                            <img src="img/close.svg" alt="Close">
+                        </div>
+                        <p class="text-dark fst-italic fw-semibold fs-2 text-start"><span class="text-danger fs-3">Enjoy unlimited videos </span><span class="d-lg-inline d-block">of you favourite sports and teams!</span></p>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center d-lg-none d-block mb-4 mx-auto">
+                    <div class="col-md-10 col-sm-5 col-8 text-center position-relative">
+                        <div class="icon-style">
+                            <img src="img/close.svg" alt="Close">
+                        </div>
+                        <p class="text-dark fst-italic fw-semibold fs-2 text-start"><span class="text-danger fs-3">Enjoy unlimited videos </span><span class="d-lg-inline d-block">of you favourite sports and teams!</span></p>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center mb-8">
+                    <div class="col-lg-3 col-4">
+                        <div class="position-relative">
+                            <img src="img/image-1.png" alt="Image 1" class="w-100 rounded-3 shadow-lg transform-skew">
+                            <span class="video-play position-absolute">
+                                <img src="img/check.svg" alt="play">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-4">
+                        <div class="position-relative">
+                            <img src="img/image-2.png" alt="Image 2" class="w-100 rounded-3 shadow-lg transform-skew">
+                            <span class="video-play position-absolute">
+                            <img src="img/check.svg" alt="play">
+                        </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-4">
+                        <div class="position-relative">
+                            <img src="img/image-3.png" alt="Image 3" class="w-100 rounded-3 shadow-lg transform-skew">
+                            <span class="video-play position-absolute">
+                            <img src="img/check.svg" alt="play">
+                        </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        //= html_partials/footer.html
+    </main>
+
+    <!-- Request accepted Modal -->
+    <div class="modal fade" id="requestAcceptedModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="requestAcceptedModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered position-relative">
+            <div class="modal-content">
+                <div class="pt-3 ms-auto close-button">
+                    <div class="w-31 h-31 rounded-circle bg-white d-flex justify-content-center align-items-center">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="card border-0">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6">
+                                <div class="d-flex justify-content-center align-items-center position-relative">
+                                    <img src="img/request-bg.png" alt="Request Done" class="card-img-top d-lg-block d-none">
+                                    <img src="img/request-bg-mobile.png" alt="Request Done" class="card-img-top d-lg-none d-block">
+                                    <img src="img/soccer.svg" alt="Soccer" class="soccer-style d-lg-block d-none">
+                                    <img src="img/soccer-mobile.svg" alt="Soccer" class="soccer-style d-lg-none d-block">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                                <div class="card-body">
+                                    <p class="card-text mb-lg-5">Thank you for your request, we just sent you an email and an SMS. Please connect via 3G on your mobile device and click on the URL.</p>
+
+                                    <div class="text-center pt-3">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact us Modal -->
+    <div class="modal fade" id="contactUsModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered position-relative">
+            <div class="modal-content">
+                <div class="pt-3 ms-auto close-button">
+                    <div class="w-31 h-31 rounded-circle bg-white d-flex justify-content-center align-items-center">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="card contact border-0">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6">
+                                <div class="d-flex justify-content-center align-items-center position-relative">
+                                    <img src="img/request-bg.png" alt="Request Done" class="card-img-top d-lg-block d-none">
+                                    <img src="img/request-bg-mobile.png" alt="Request Done" class="card-img-top d-lg-none d-block">
+                                    <img src="img/basket.svg" alt="Basket" class="basket-style d-lg-block d-none">
+                                    <img src="img/basket-mobile.svg" alt="Basket" class="basket-style d-lg-none d-block">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex justify-content-center align-items-center position-relative">
+                                <div class="card-body">
+                                    <div class="card-form">
+                                        <h2>Contact Us</h2>
+
+                                        <p class="fs-9 mb-lg-4 mb-3">We are here for you! How can we help?</p>
+
+                                        <form class="contact-form">
+                                            <div class="mb-lg-3 mb-2">
+                                                <input type="text" class="form-control" id="inputName" placeholder="Name">
+                                            </div>
+                                            <div class="mb-lg-3 mb-2">
+                                                <input type="email" class="form-control" id="inputEmail" placeholder="Email address" aria-describedby="emailHelp">
+                                            </div>
+
+                                            <div class="mb-lg-3 mb-3">
+                                                <textarea class="form-control" id="messageTextarea" rows="5" placeholder="Message"></textarea>
+                                            </div>
+
+                                            <div class="mb-lg-4 mb-3">
+                                                <div class="grecaptcha recaptcha-style"></div>
+                                            </div>
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-danger">Submit</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+//= html_partials/scripts.html
+
+</html>

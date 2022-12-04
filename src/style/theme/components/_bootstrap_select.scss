@@ -1,0 +1,121 @@
+@import "bootstrap-select/sass/variables";
+@import "bootstrap-select/sass/bootstrap-select";
+.bootstrap-select {
+    .dropdown-toggle.btn-light {
+        border-radius: 0;
+        background-color: $white;
+        padding: 1.125rem 1.25rem;
+        font-weight: $font-weight-medium;
+        font-size: .75rem;
+        color: $black;
+        border: 1px solid $black-41;
+        &::placeholder {
+            font-weight: $font-weight-medium;
+            font-style: italic;
+            color: $gray-174;
+            @include media-breakpoint-down(md) {
+                font-size: .438rem;
+            }
+        }
+        &:focus {
+            outline: none!important;
+            outline-offset: none!important;
+            box-shadow: none;
+        }
+        &.show,
+        &:active,
+        &:focus,
+        &:hover {
+            color: $gray-174!important;
+            background-color: $white!important;
+        }
+        @include media-breakpoint-down(md) {
+            font-size: .438rem;
+            padding: .22rem .438rem;
+        }
+    }
+    .dropdown-toggle {
+        &.show {
+            &:after {
+                transform: rotate(180deg);
+            }
+        }
+        &::after {
+            color: $gray-174;
+        }
+    }
+    &>.dropdown-menu {
+        background-color: transparent;
+        border: 1px solid $black-41;
+        padding: .625rem 0;
+        padding-right: .25rem;
+        border-radius: 0;
+        ul {
+            background-color: $light;
+            max-height: 7.25rem;
+            overflow-y: auto;
+            padding-left: 0;
+            margin-bottom: 0;
+            &.show {
+                color: $black;
+                background-color: $light;
+                border: none;
+            }
+            .dropdown-item {
+                font-weight: $font-weight-medium;
+                color: $black-41;
+                font-size: 1rem;
+                &.active,
+                &:hover,
+                &:focus {
+                    color: $black;
+                    background-color: $gray-237;
+                    border: 1px solid $black-41;
+                }
+                @include media-breakpoint-down(md) {
+                    font-size: .5rem;
+                    padding: .35rem .25rem;
+                }
+                @include media-breakpoint-up(xxxxl) {
+                    font-size: 1rem;
+                }
+            }
+        }
+        ul::-webkit-scrollbar {
+            width: .563rem;
+            @include media-breakpoint-down(md) {
+                width: .25rem;
+            }
+        }
+        ul::-webkit-scrollbar-track {
+            background-color: $gray-217;
+        }
+        ul::-webkit-scrollbar-thumb {
+            background: $red-77;
+        }
+        @include media-breakpoint-down(md) {
+            padding: .5rem 0;
+        }
+    }
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder {
+    font-size: 1rem;
+    font-style: italic;
+    color: $gray-174;
+    @include media-breakpoint-down(md) {
+        font-size: .375rem;
+    }
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+    font-size: 1rem;
+    font-style: italic;
+    color: $gray-174;
+    @include media-breakpoint-down(md) {
+        font-size: .375rem;
+    }
+}
