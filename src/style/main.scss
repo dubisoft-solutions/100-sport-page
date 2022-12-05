@@ -130,9 +130,16 @@
                 lg) {
                     width: 94%;
                 }
-                @include media-breakpoint-between(lg,
-                xl) {
-                    width: 96%;
+                @include media-breakpoint-between(xxxl,
+                xxxxl) {
+                    width: 90%;
+                }
+                @include media-breakpoint-between(xxxxl,
+                xxxxxl) {
+                    width: 92%;
+                }
+                @include media-breakpoint-up(xxxxxl) {
+                    width: 94%;
                 }
             }
             &::after {
