@@ -106,7 +106,7 @@
   --bs-border-color-translucent: rgba(72, 72, 72, 0.175);
   --bs-border-radius: 0.25rem;
   --bs-border-radius-sm: 0.625rem;
-  --bs-border-radius-lg: 0.5rem;
+  --bs-border-radius-lg: 0.875rem;
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
@@ -2754,7 +2754,7 @@ progress {
   font-weight: 500;
   line-height: 1;
   color: #484848;
-  background-color: #FFFFFF;
+  background-color: transparent;
   background-clip: padding-box;
   border: 1px solid #2C2929;
   appearance: none;
@@ -2774,7 +2774,7 @@ progress {
 }
 .form-control:focus {
   color: #484848;
-  background-color: #FFFFFF;
+  background-color: transparent;
   border-color: #86b7fe;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
@@ -2848,7 +2848,7 @@ progress {
   min-height: calc(1em + 1rem + 2px);
   padding: 0.5rem 1rem;
   font-size: 1.09375rem;
-  border-radius: 0.5rem;
+  border-radius: 0.875rem;
 }
 .form-control-lg::file-selector-button {
   padding: 0.5rem 1rem;
@@ -2897,7 +2897,7 @@ textarea.form-control-lg {
   font-weight: 500;
   line-height: 1;
   color: #484848;
-  background-color: #FFFFFF;
+  background-color: transparent;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: left 1.25rem center;
@@ -2942,7 +2942,7 @@ textarea.form-control-lg {
   padding-bottom: 0.5rem;
   padding-right: 1rem;
   font-size: 1.09375rem;
-  border-radius: 0.5rem;
+  border-radius: 0.875rem;
 }
 
 .form-check {
@@ -2972,7 +2972,7 @@ textarea.form-control-lg {
   height: 1em;
   margin-top: 0em;
   vertical-align: top;
-  background-color: #FFFFFF;
+  background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -3266,7 +3266,7 @@ textarea.form-control-lg {
 .input-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.09375rem;
-  border-radius: 0.5rem;
+  border-radius: 0.875rem;
 }
 
 .input-group-sm > .form-control,
@@ -3862,7 +3862,7 @@ textarea.form-control-lg {
   --bs-btn-padding-y: 0.5rem;
   --bs-btn-padding-x: 1rem;
   --bs-btn-font-size: 1.09375rem;
-  --bs-btn-border-radius: 0.5rem;
+  --bs-btn-border-radius: 0.875rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -5558,7 +5558,7 @@ textarea.form-control-lg {
   --bs-pagination-padding-x: 1.5rem;
   --bs-pagination-padding-y: 0.75rem;
   --bs-pagination-font-size: 1.09375rem;
-  --bs-pagination-border-radius: 0.5rem;
+  --bs-pagination-border-radius: 0.875rem;
 }
 
 .pagination-sm {
@@ -6311,9 +6311,9 @@ textarea.form-control-lg {
   --bs-modal-bg: #FFFFFF;
   --bs-modal-border-color: var(--bs-border-color-translucent);
   --bs-modal-border-width: 1px;
-  --bs-modal-border-radius: 0.5rem;
+  --bs-modal-border-radius: 0.875rem;
   --bs-modal-box-shadow: 0px 3.01622px 3.01622px rgba(0, 0, 0, 0.1);
-  --bs-modal-inner-border-radius: calc(0.5rem - 1px);
+  --bs-modal-inner-border-radius: calc(0.875rem - 1px);
   --bs-modal-header-padding-x: 1rem;
   --bs-modal-header-padding-y: 1rem;
   --bs-modal-header-padding: 1rem 1rem;
@@ -6776,8 +6776,8 @@ textarea.form-control-lg {
   --bs-popover-bg: #FFFFFF;
   --bs-popover-border-width: 1px;
   --bs-popover-border-color: var(--bs-border-color-translucent);
-  --bs-popover-border-radius: 0.5rem;
-  --bs-popover-inner-border-radius: calc(0.5rem - 1px);
+  --bs-popover-border-radius: 0.875rem;
+  --bs-popover-inner-border-radius: calc(0.875rem - 1px);
   --bs-popover-box-shadow: 0px 4px 4px rgba(36, 0, 0, 0.25);
   --bs-popover-header-padding-x: 1rem;
   --bs-popover-header-padding-y: 0.5rem;
@@ -16557,10 +16557,10 @@ select.selectpicker {
 
 .bootstrap-select .dropdown-toggle.btn-light {
   border-radius: 0;
-  background-color: #FFFFFF;
+  background-color: transparent !important;
   padding: 1.125rem 1.25rem;
   font-weight: 500;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: #484848;
   border: 1px solid #2C2929;
 }
@@ -16581,7 +16581,7 @@ select.selectpicker {
 }
 .bootstrap-select .dropdown-toggle.btn-light.show, .bootstrap-select .dropdown-toggle.btn-light:active, .bootstrap-select .dropdown-toggle.btn-light:focus, .bootstrap-select .dropdown-toggle.btn-light:hover {
   color: #AEAEAE !important;
-  background-color: #FFFFFF !important;
+  background-color: transparent !important;
 }
 @media (max-width: 767.98px) {
   .bootstrap-select .dropdown-toggle.btn-light {
@@ -16603,7 +16603,7 @@ select.selectpicker {
   border-radius: 0;
 }
 .bootstrap-select > .dropdown-menu ul {
-  background-color: #EFF1F7;
+  background-color: transparent;
   max-height: 7.25rem;
   overflow-y: auto;
   padding-right: 0;
@@ -16611,7 +16611,7 @@ select.selectpicker {
 }
 .bootstrap-select > .dropdown-menu ul.show {
   color: #484848;
-  background-color: #EFF1F7;
+  background-color: transparent;
   border: none;
 }
 .bootstrap-select > .dropdown-menu ul .dropdown-item {
@@ -16856,18 +16856,6 @@ select.selectpicker {
   color: #243047 !important;
 }
 
-.rounded-1 {
-  border-radius: 0.25rem !important;
-}
-
-.rounded-2 {
-  border-radius: 0.625rem !important;
-}
-
-.rounded-3 {
-  border-radius: 0.875rem !important;
-}
-
 .shadow-sm {
   box-shadow: 0px 4px 4px rgba(36, 0, 0, 0.25) !important;
 }
@@ -16909,17 +16897,11 @@ textarea {
 }
 
 @media (max-width: 767.98px) {
-  .fs-1 {
-    font-size: 2.125rem !important;
-  }
   .fs-2 {
     font-size: 0.75rem !important;
   }
   .fs-3 {
     font-size: 0.813rem !important;
-  }
-  .fs-4 {
-    font-size: 0.594rem !important;
   }
   .fs-6 {
     font-size: 0.438rem !important;
@@ -16944,12 +16926,6 @@ textarea {
   }
   .mb-8 {
     margin-bottom: 2.188rem !important;
-  }
-  .rounded-1 {
-    border-radius: 0.313 !important;
-  }
-  .rounded-3 {
-    border-radius: 0.25 !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1199.98px) {
@@ -17139,9 +17115,19 @@ p {
     width: 94%;
   }
 }
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 1548px) and (max-width: 1919.98px) {
   .index .footer .middle-line-decor::before {
-    width: 96%;
+    width: 90%;
+  }
+}
+@media (min-width: 1920px) and (max-width: 2559.98px) {
+  .index .footer .middle-line-decor::before {
+    width: 92%;
+  }
+}
+@media (min-width: 2560px) {
+  .index .footer .middle-line-decor::before {
+    width: 94%;
   }
 }
 .index .footer .middle-line-decor::after {
