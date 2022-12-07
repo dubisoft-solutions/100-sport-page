@@ -1,10 +1,10 @@
-### Kiosk Markup project ###
+### 100 Sport Markup project ###
 
 Markup project created by figma design.
 
-Demo link [url](https://dubisoft-solutions.github.io/kiosk-markup "Demo project link")
+Demo link [url](https://dubisoft-solutions.github.io/100-sport-page/ "Demo project link")
 
-RTL version: [url](https://dubisoft-solutions.github.io/kiosk-markup?rtl=true "Demo rtl project link")
+RTL version: [url](https://dubisoft-solutions.github.io/100-sport-page/?rtl=true "Demo rtl project link")
 
 ## Project structure ##
 
