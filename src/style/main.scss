@@ -139,6 +139,10 @@
                 lg) {
                     width: 94%;
                 }
+                @include media-breakpoint-between(lg,
+                xl) {
+                    width: 95%;
+                }
                 @include media-breakpoint-between(xxxl,
                 xxxxl) {
                     width: 90%;
@@ -153,7 +157,7 @@
             }
             &::after {
                 position: absolute;
-                top: .25re;
+                top: .25rem;
                 right: 6.125rem;
                 display: block;
                 position: absolute;
