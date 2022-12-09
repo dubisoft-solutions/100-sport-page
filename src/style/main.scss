@@ -77,9 +77,9 @@
         -webkit-transform-origin: 0 0;
         height: 5vh;
         @include media-breakpoint-down(md) {
-            transform: scale(0.4);
-            -webkit-transform: scale(0.4);
-            height: 5vh;
+            transform: scale(0.3);
+            -webkit-transform: scale(0.3);
+            height: 4vh;
         }
     }
     .video-play {
