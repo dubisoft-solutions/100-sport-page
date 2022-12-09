@@ -35,14 +35,18 @@
                 }
                 @include media-breakpoint-between(sm,
                 lg) {
-                    height: 336px;
+                    height: 280px;
                 }
                 @include media-breakpoint-between(lg,
                 xl) {
                     height: 500px;
                 }
-                @include media-breakpoint-up(xxxxl) {
-                    height: 1226px;
+                @include media-breakpoint-between(xxxxl,
+                xxxxxl) {
+                    height: 930px;
+                }
+                @include media-breakpoint-up(xxxxxl) {
+                    height: 1126px;
                 }
             }
         }
