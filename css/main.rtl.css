@@ -16912,9 +16912,9 @@ p {
 }
 @media (max-width: 767.98px) {
   .index .recaptcha-style {
-    transform: scale(0.4);
-    -webkit-transform: scale(0.4);
-    height: 5vh;
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    height: 4vh;
   }
 }
 .index .video-play {
