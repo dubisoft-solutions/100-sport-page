@@ -89,6 +89,7 @@
             }
             @include media-breakpoint-down(md) {
                 background-color: $light-247;
+                max-height: 4.375rem;
             }
         }
         ul::-webkit-scrollbar {
@@ -101,10 +102,11 @@
             background-color: $gray-217;
         }
         ul::-webkit-scrollbar-thumb {
-            background: $red-77;
+            background: $red-36;
         }
         @include media-breakpoint-down(md) {
-            padding: .5rem 0;
+            padding: .25rem 0;
+            padding-right: .25rem;
             background-color: $light-247;
         }
     }
