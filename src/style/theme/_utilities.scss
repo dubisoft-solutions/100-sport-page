@@ -38,14 +38,6 @@
     height: 1.938rem;
 }
 
-.w-44 {
-    width: 2.75rem;
-}
-
-.h-44 {
-    height: 2.75rem;
-}
-
 textarea {
     resize: none;
 }
@@ -67,12 +59,6 @@ textarea {
     .fs-8 {
         font-size: .625rem!important;
     }
-    .w-44 {
-        width: 1.313rem;
-    }
-    .h-44 {
-        height: 1.313rem;
-    }
     .pt-6 {
         padding-top: 2rem!important;
     }
@@ -84,6 +70,9 @@ textarea {
     }
     .mb-8 {
         margin-bottom: 2.188rem!important;
+    }
+    .rounded-3 {
+        border-radius: .25rem!important;
     }
 }
 

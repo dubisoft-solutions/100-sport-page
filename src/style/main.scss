@@ -22,26 +22,29 @@
             }
         }
     }
+    @include media-breakpoint-down(md) {
+        background-color: #EFF1F7;
+    }
     .icon-style {
         position: absolute;
-        top: -10px;
-        left: -10px;
+        top: -.625rem;
+        left: -.625rem;
         @include media-breakpoint-down(md) {
-            top: 15px;
+            top: .938rem;
             left: 0;
             img {
-                width: 9px;
-                height: 9px;
+                width: .563rem;
+                height: .563rem;
             }
         }
     }
     .soccer-style {
         position: absolute;
-        top: -70px;
-        left: -265px;
+        top: -4.375rem;
+        left: -16.563rem;
         @include media-breakpoint-down(md) {
-            top: -50px;
-            left: -25px;
+            top: -3.125rem;
+            left: -1.563rem;
             right: 0;
         }
         @include media-breakpoint-between(md,
@@ -54,10 +57,10 @@
     .basket-style {
         position: absolute;
         top: 0;
-        left: -160px;
+        left: -10rem;
         @include media-breakpoint-down(sm) {
-            top: -50px;
-            left: -10px;
+            top: -3.125rem;
+            left: -.625rem;
             right: 0;
         }
         @include media-breakpoint-between(sm,
@@ -72,11 +75,11 @@
         -webkit-transform: scale(0.6);
         transform-origin: 0 0;
         -webkit-transform-origin: 0 0;
-        height: 8vh;
+        height: 5vh;
         @include media-breakpoint-down(md) {
             transform: scale(0.4);
             -webkit-transform: scale(0.4);
-            height: 7vh;
+            height: 5vh;
         }
     }
     .video-play {
@@ -88,11 +91,11 @@
         left: 0;
         right: 0;
         img {
-            width: 32px;
-            height: 32px;
+            width: 2rem;
+            height: 2rem;
             @include media-breakpoint-down(md) {
-                width: 10px;
-                height: 10px;
+                width: .625rem;
+                height: .625rem;
             }
         }
     }
@@ -112,15 +115,21 @@
             &::before {
                 content: "";
                 display: block;
-                height: 3px;
+                border-width: .188rem;
                 width: 88%;
                 border-style: dashed;
                 color: $gray-132;
                 position: absolute;
-                top: 30px;
-                left: 15px;
+                top: 1.875rem;
+                left: .938rem;
+                border-bottom: 0;
+                border-right: 0;
+                border-left: 0;
+                @include media-breakpoint-down(md) {
+                    border-width: .063rem;
+                }
                 @include media-breakpoint-down(lg) {
-                    top: 12px;
+                    top: .75rem;
                 }
                 @include media-breakpoint-between(sm,
                 md) {
@@ -144,18 +153,18 @@
             }
             &::after {
                 position: absolute;
-                top: 4px;
-                right: 98px;
+                top: .25re;
+                right: 6.125rem;
                 display: block;
                 position: absolute;
                 @include icon-styles;
                 content: icon-char(square);
-                font-size: 55px;
+                font-size: 3.438rem;
                 color: $gray-132;
                 @include media-breakpoint-down(lg) {
-                    top: -2px;
-                    right: 6px;
-                    font-size: 30px;
+                    top: -.125rem;
+                    right: .375rem;
+                    font-size: 1.875rem;
                 }
                 @include media-breakpoint-between(lg,
                 xl) {
@@ -164,45 +173,45 @@
             }
         }
         .circle-step {
-            width: 67px;
-            height: 67px;
+            width: 4.188rem;
+            height: 4.188rem;
             background-color: $white;
             box-shadow: $box-shadow-md;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
             position: relative;
-            padding-right: 5px;
+            padding-right: .313rem;
             span {
                 font-weight: 600;
                 font-style: italic;
-                font-size: 56px;
+                font-size: 3.5rem;
                 color: $red-42;
             }
             @include media-breakpoint-down(lg) {
-                width: 25px;
-                height: 25px;
+                width: 1.563rem;
+                height: 1.563rem;
                 margin-bottom: 1rem;
-                padding-right: 3px;
+                padding-right: .188rem;
                 span {
-                    font-size: 21px;
+                    font-size: 1.313rem;
                 }
             }
         }
         .step-description {
             position: absolute;
-            top: 14px;
-            left: 120px;
+            top: .875rem;
+            left: 7.5rem;
             z-index: 1;
             @include media-breakpoint-down(md) {
-                top: 7px;
-                left: 50px;
+                top: .375rem;
+                left: 3.125rem;
             }
             @include media-breakpoint-between(md,
             lg) {
-                top: -3px;
-                left: 50px;
+                top: -.375rem;
+                left: 3.125rem;
             }
         }
     }

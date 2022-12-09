@@ -11,7 +11,7 @@
         color: $white;
         background-color: $gradient;
     }
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down(md) {
         font-size: .563rem;
         padding: .22rem 1rem;
         min-width: 6.875rem;
@@ -25,5 +25,12 @@
     }
     @include media-breakpoint-up(xxxxl) {
         font-size: 1.25rem;
+    }
+}
+
+.btn-light {
+    background-color: $light-41;
+    @include media-breakpoint-down(md) {
+        background-color: $light-247;
     }
 }

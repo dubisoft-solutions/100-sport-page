@@ -5,6 +5,8 @@ $font-family-title: 'Inter' !default;
 $white: #FFFFFF;
 $light: #EFF1F7;
 $light-255: #F5F5FF;
+$light-247: #EFF1F7;
+$light-41: #F8F9FC;
 $red-27: #EE221B;
 $red-42: #FF122A;
 $red-48: #FF1B30;
@@ -44,21 +46,21 @@ $spacers: ( 0: 0, 1: $spacer * .25, 2: $spacer * .5, 3: $spacer, 4: $spacer * 1.
 $box-shadow: (0px 4px 4px rgba(36, 0, 0, 0.25)) !default;
 $box-shadow-sm: 0px 3.01622px 3.01622px rgba(0, 0, 0, 0.1) !default;
 $box-shadow-md: 0px 3.06246px 3.06246px rgba(0, 0, 0, 0.6)!default;
+// border
+$border-radius: .25rem!default;
+$border-radius-sm: .625rem!default;
+$border-radius-lg: .875rem!default;
 // buttons
 $btn-padding-y: 1.125rem;
 $btn-padding-x: 2rem;
 $btn-font-size: 1.25rem;
 $btn-font-weight: 700;
 $btn-line-height: 1rem;
-$btn-border-radius: .25rem;
+$btn-border-radius: $border-radius;
 $btn-color: $white!default;
 $btn-box-shadow: $box-shadow;
 $btn-link-color: $white;
 $btn-link-hover-color: $light;
-// border
-$border-radius: .25rem!default;
-$border-radius-sm: .625rem!default;
-$border-radius-lg: .875rem!default;
 // dropdown
 $dropdown-padding-x: .625rem;
 $dropdown-padding-y: .375rem;
@@ -76,7 +78,7 @@ $container-max-widths: (xc: 355px, sm: 540px, md: 720px, lg: 960px, xl: 1140px, 
 $input-font-size: 1rem;
 $input-font-weight: $font-weight-medium;
 $input-color: $black;
-$input-bg: transparent;
+$input-bg: $light-41;
 $input-border-color: $black-41;
 $input-padding-y: .875rem;
 $input-padding-x: 1.25rem;
