@@ -16987,6 +16987,11 @@ p {
     width: 94%;
   }
 }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .index .footer .middle-line-decor::before {
+    width: 95%;
+  }
+}
 @media (min-width: 1548px) and (max-width: 1919.98px) {
   .index .footer .middle-line-decor::before {
     width: 90%;
@@ -17004,7 +17009,7 @@ p {
 }
 .index .footer .middle-line-decor::after {
   position: absolute;
-  top: 0.25re;
+  top: 0.25rem;
   left: 6.125rem;
   display: block;
   position: absolute;
