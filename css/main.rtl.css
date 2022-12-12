@@ -16075,7 +16075,7 @@ textarea.form-control-lg {
 .dropdown-menu.dropdown-style ul.show {
   color: #0F3741;
   background-color: #FFFFFF;
-  border: none;
+  border: 0.063rem solid #FFFFFF;
 }
 .dropdown-menu.dropdown-style ul .dropdown-item {
   font-weight: 500;
@@ -16085,7 +16085,7 @@ textarea.form-control-lg {
   color: #0F3741;
   background-color: #EDEDED;
   border: 0.063rem solid #484848;
-  padding: 0.25rem 0.625rem;
+  padding: 0.425rem 0.7125rem;
 }
 @media (max-width: 767.98px) {
   .dropdown-menu.dropdown-style ul .dropdown-item {
@@ -16645,6 +16645,7 @@ select.selectpicker {
   color: #484848;
   background-color: #EDEDED;
   border: 0.063rem solid #2C2929;
+  padding: 0.425rem 0.7rem;
 }
 @media (max-width: 767.98px) {
   .bootstrap-select > .dropdown-menu ul .dropdown-item {
