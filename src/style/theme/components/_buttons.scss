@@ -12,9 +12,9 @@
         background-color: $gradient;
     }
     @include media-breakpoint-down(md) {
-        font-size: .563rem;
-        padding: .22rem 1rem;
-        min-width: 6.875rem;
+        font-size: .938rem;
+        padding: .72rem 1rem;
+        min-width: 11.813rem;
     }
 }
 

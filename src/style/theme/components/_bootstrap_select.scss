@@ -14,7 +14,7 @@
             font-style: italic;
             color: $gray-174;
             @include media-breakpoint-down(md) {
-                font-size: .438rem;
+                font-size: .75rem;
             }
         }
         &:focus {
@@ -33,8 +33,8 @@
             }
         }
         @include media-breakpoint-down(md) {
-            font-size: .438rem;
-            padding: .22rem .438rem;
+            font-size: .75rem;
+            padding: .69rem 1rem;
             background-color: $light-247;
         }
     }
@@ -45,7 +45,7 @@
             }
         }
         &::after {
-            color: $gray-174;
+            color: $red-36;
         }
     }
     &>.dropdown-menu {
@@ -76,13 +76,13 @@
                 &:hover,
                 &:focus {
                     color: $black;
-                    background-color: $gray-237;
+                    background-color: #E6E8EB;
                     border: .063rem solid $black-41;
                     padding: .425rem .7rem;
                 }
                 @include media-breakpoint-down(md) {
-                    font-size: .5rem;
-                    padding: .35rem .25rem;
+                    font-size: .75rem;
+                    padding: .35rem 1rem;
                 }
                 @include media-breakpoint-up(xxxxl) {
                     font-size: 1rem;
@@ -118,7 +118,7 @@
     font-style: italic;
     color: $gray-174;
     @include media-breakpoint-down(md) {
-        font-size: .375rem;
+        font-size: .75rem;
     }
 }
 
@@ -130,6 +130,6 @@
     font-style: italic;
     color: $gray-174;
     @include media-breakpoint-down(md) {
-        font-size: .375rem;
+        font-size: .75rem;
     }
 }
