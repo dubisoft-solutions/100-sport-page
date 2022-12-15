@@ -15883,9 +15883,9 @@ textarea.form-control-lg {
 }
 @media (max-width: 767.98px) {
   .btn-danger {
-    font-size: 0.563rem;
-    padding: 0.22rem 1rem;
-    min-width: 6.875rem;
+    font-size: 0.938rem;
+    padding: 0.72rem 1rem;
+    min-width: 11.813rem;
   }
 }
 
@@ -15916,7 +15916,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 767.98px) {
   .form-control::placeholder {
-    font-size: 0.438rem;
+    font-size: 0.75rem;
   }
 }
 .form-control:focus {
@@ -15925,8 +15925,8 @@ textarea.form-control-lg {
 }
 @media (max-width: 767.98px) {
   .form-control {
-    font-size: 0.438rem;
-    padding: 0.4rem 0.75rem;
+    font-size: 0.75rem;
+    padding: 0.65rem 1rem;
     background-color: #EFF1F7;
   }
 }
@@ -16582,7 +16582,7 @@ select.selectpicker {
 }
 @media (max-width: 767.98px) {
   .bootstrap-select .dropdown-toggle.btn-light::placeholder {
-    font-size: 0.438rem;
+    font-size: 0.75rem;
   }
 }
 .bootstrap-select .dropdown-toggle.btn-light:focus {
@@ -16601,8 +16601,8 @@ select.selectpicker {
 }
 @media (max-width: 767.98px) {
   .bootstrap-select .dropdown-toggle.btn-light {
-    font-size: 0.438rem;
-    padding: 0.22rem 0.438rem;
+    font-size: 0.75rem;
+    padding: 0.69rem 1rem;
     background-color: #EFF1F7;
   }
 }
@@ -16610,7 +16610,7 @@ select.selectpicker {
   transform: rotate(-180deg);
 }
 .bootstrap-select .dropdown-toggle::after {
-  color: #AEAEAE;
+  color: #C60024;
 }
 .bootstrap-select > .dropdown-menu {
   background-color: #F8F9FC;
@@ -16643,14 +16643,14 @@ select.selectpicker {
 }
 .bootstrap-select > .dropdown-menu ul .dropdown-item.active, .bootstrap-select > .dropdown-menu ul .dropdown-item:hover, .bootstrap-select > .dropdown-menu ul .dropdown-item:focus {
   color: #484848;
-  background-color: #EDEDED;
+  background-color: #E6E8EB;
   border: 0.063rem solid #2C2929;
   padding: 0.425rem 0.7rem;
 }
 @media (max-width: 767.98px) {
   .bootstrap-select > .dropdown-menu ul .dropdown-item {
-    font-size: 0.5rem;
-    padding: 0.35rem 0.25rem;
+    font-size: 0.75rem;
+    padding: 0.35rem 1rem;
   }
 }
 @media (min-width: 1920px) {
@@ -16693,7 +16693,7 @@ select.selectpicker {
 }
 @media (max-width: 767.98px) {
   .bootstrap-select > .dropdown-toggle.bs-placeholder {
-    font-size: 0.375rem;
+    font-size: 0.75rem;
   }
 }
 
@@ -16710,7 +16710,7 @@ select.selectpicker {
   .bootstrap-select > .dropdown-toggle.bs-placeholder:active,
   .bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
   .bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
-    font-size: 0.375rem;
+    font-size: 0.75rem;
   }
 }
 
@@ -16770,7 +16770,7 @@ textarea {
     font-size: 0.813rem !important;
   }
   .fs-6 {
-    font-size: 0.438rem !important;
+    font-size: 0.5rem !important;
   }
   .fs-8 {
     font-size: 0.625rem !important;
