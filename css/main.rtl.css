@@ -16905,8 +16905,8 @@ p {
 }
 .index .soccer-style {
   position: absolute;
-  top: -4.375rem;
-  right: -16.563rem;
+  top: 0.625rem;
+  right: -12.563rem;
 }
 @media (max-width: 767.98px) {
   .index .soccer-style {
@@ -16924,8 +16924,8 @@ p {
 }
 .index .basket-style {
   position: absolute;
-  top: 0;
-  right: -10rem;
+  top: 1rem;
+  right: -2rem;
 }
 @media (max-width: 575.98px) {
   .index .basket-style {
