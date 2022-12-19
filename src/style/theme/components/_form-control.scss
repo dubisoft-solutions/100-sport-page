@@ -31,15 +31,15 @@
         &::placeholder {
             font-style: normal;
             font-weight: 400;
-            font-size: .563rem;
+            font-size: .75rem;
             @include media-breakpoint-down(md) {
                 padding: .5rem;
-                font-size: .375rem;
+                font-size: .625rem;
             }
         }
         @include media-breakpoint-down(md) {
             padding: .5rem;
-            font-size: .438rem;
+            font-size: .625rem;
         }
     }
 }
