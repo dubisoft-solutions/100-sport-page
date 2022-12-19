@@ -69,8 +69,8 @@
     }
     .soccer-style {
         position: absolute;
-        top: -4.375rem;
-        left: -16.563rem;
+        top: .625rem;
+        left: -12.563rem;
         @include media-breakpoint-down(md) {
             top: -3.125rem;
             left: -1.563rem;
@@ -85,8 +85,8 @@
     }
     .basket-style {
         position: absolute;
-        top: 0;
-        left: -10rem;
+        top: 1rem;
+        left: -2rem;
         @include media-breakpoint-down(sm) {
             top: -3.125rem;
             left: -.625rem;
