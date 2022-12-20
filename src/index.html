@@ -20,7 +20,7 @@
                 </div>
                 <div class="row justify-content-center mb-8 mx-4">
                     <div class="col-lg-7">
-                        <form class="needs-validation" novalidate>
+                        <form id="subscribeForm" class="needs-validation" novalidate>
                             <div class="row mb-lg-3 mb-2">
                                 <div class="col-lg-5 col-12">
                                     <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email" aria-describedby="basic-email" required>
@@ -176,16 +176,25 @@
 
                                         <p class="fs-9 font-monospace mb-lg-4 mb-3">We are here for you! How can we help?</p>
 
-                                        <form class="contact-form">
+                                        <form class="contact-form needs-validation" novalidate>
                                             <div class="mb-lg-3 mb-2">
-                                                <input type="text" class="form-control" id="inputName" placeholder="Name">
+                                                <input type="text" required class="form-control" id="inputName" placeholder="Name">
+                                                <div class="invalid-feedback">
+                                                    Required field*
+                                                </div>
                                             </div>
                                             <div class="mb-lg-3 mb-2">
-                                                <input type="email" class="form-control" id="inputEmail" placeholder="Email address" aria-describedby="emailHelp">
+                                                <input type="email" required class="form-control" id="inputEmail" placeholder="Email address" aria-describedby="emailHelp">
+                                                <div class="invalid-feedback">
+                                                    Required field*
+                                                </div>
                                             </div>
 
                                             <div class="mb-lg-3 mb-3">
-                                                <textarea class="form-control" id="messageTextarea" rows="6" placeholder="Message"></textarea>
+                                                <textarea class="form-control" required id="messageTextarea" rows="6" placeholder="Message"></textarea>
+                                                <div class="invalid-feedback">
+                                                    Required field*
+                                                </div>
                                             </div>
 
                                             <div class="mb-lg-4 mb-3">
