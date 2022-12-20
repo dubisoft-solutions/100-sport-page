@@ -72,9 +72,10 @@
         top: .625rem;
         left: -12.563rem;
         @include media-breakpoint-down(md) {
-            top: -3.125rem;
+            top: -.5rem;
             left: -1.563rem;
             right: 0;
+            width: 100%;
         }
         @include media-breakpoint-between(md,
         lg) {
@@ -88,9 +89,10 @@
         top: 1rem;
         left: -2rem;
         @include media-breakpoint-down(sm) {
-            top: -3.125rem;
-            left: -.625rem;
+            top: -2.125rem;
+            left: 1.825rem;
             right: 0;
+            width: 75%;
         }
         @include media-breakpoint-between(sm,
         lg) {
