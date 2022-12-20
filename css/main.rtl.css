@@ -15949,14 +15949,14 @@ textarea.form-control-lg {
 }
 @media (max-width: 767.98px) {
   .contact-form .form-control::placeholder {
-    padding: 0.5rem;
-    font-size: 0.625rem;
+    padding: 0.35rem;
+    font-size: 0.688rem;
   }
 }
 @media (max-width: 767.98px) {
   .contact-form .form-control {
-    padding: 0.5rem;
-    font-size: 0.625rem;
+    padding: 0.35rem;
+    font-size: 0.688rem;
   }
 }
 
@@ -16775,6 +16775,9 @@ textarea {
   .fs-8 {
     font-size: 0.625rem !important;
   }
+  .fs-9 {
+    font-size: 0.625rem !important;
+  }
   .pt-6 {
     padding-top: 2rem !important;
   }
@@ -16910,9 +16913,10 @@ p {
 }
 @media (max-width: 767.98px) {
   .index .soccer-style {
-    top: -3.125rem;
+    top: -0.5rem;
     right: -1.563rem;
     left: 0;
+    width: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -16929,9 +16933,10 @@ p {
 }
 @media (max-width: 575.98px) {
   .index .basket-style {
-    top: -3.125rem;
-    right: -0.625rem;
+    top: -2.125rem;
+    right: 1.825rem;
     left: 0;
+    width: 75%;
   }
 }
 @media (min-width: 576px) and (max-width: 991.98px) {
